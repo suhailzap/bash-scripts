@@ -26,6 +26,7 @@ free -h | awk '/Mem:/ {
   total=$2; used=$3; free=$4;
   printf("Total: %s | Used: %s | Free: %s | Usage: %.2f%%\n", total, used, free, (used/total)*100)
 }'
+du -sh /* 2>/dev/null | sort -hr | head -n 10
 
 # Disk Usage
 echo -e "\n🗄️ Total Disk Usage (Mounted on '/'):"
