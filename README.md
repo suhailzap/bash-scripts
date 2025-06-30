@@ -98,9 +98,7 @@ chmod +x analyze-nginx-logs.sh
 
 ---
 
-## 📋 License
 
-This project is licensed under the MIT License. Feel free to modify and use for personal or professional projects.
 
 ---
 
